@@ -16,6 +16,8 @@ This sourcemod plugin enables changing the tick rate when the number of clients 
 
 ## Notes
 
+Requires [TickRate Control](https://forums.alliedmods.net/showthread.php?t=319147) plugin.
+
 Tick rate will be set on next map load whenever the client count breaches the threshold during a map.
 
 A temporary file is created to flag that the "low" tickrate should be used; it will be deleted after
